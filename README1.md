@@ -39,7 +39,7 @@
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/你的用户名/folklore-agent.git
+git clone https://github.com/wllin00/folklore-agent.git
 cd folklore-agent
 2. 安装依赖
 bash
@@ -50,7 +50,6 @@ conda activate folklore_agent
 # 安装所需包（使用清华源加速）
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 3. 配置 API Key
-⚠️ 安全提示：请勿将真实密钥提交到公开仓库！
 
 复制 .env.example 为 .env，并填入你自己的 DeepSeek API Key（从 DeepSeek 开放平台 免费获取）。
 
